@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+html {
+  font-family: "open sans", sans-serif;
+}
+/* navbar selection */
+#navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+#navbar ul li {
+  margin-right: 5px;
+}
+#navbar ul li a :hover {
+  padding: 0.5rem;
+}
+#navbar ul li a :hover {
+  background: #336ea2;
+  border-radius: 4px;
+}
+
+/* home section */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid grey;
+}
+
+/* home içinde ki image stil verme */
+#home img {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+#home .name h2 {
+  margin-bottom: 0.75rem;
+}
+#home .name p {
+  opacity: 0.6;
+  font-style: italic;
+}
+/* training */
+
+#trainig {
+  color: white;
+  padding: 1rem;
+}
+#training .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#trainig .items .items {
+  width: 33%;
+  text-align: center;
+  padding: 0.5rem;
+}
+#trainig .items .items:hover{
+    color: red;
+    opacity: 0.6;
+}
+/* div içinde ki articlelar */
+article {
+  background-color: #336ea2;
+}
+
+article h3 {
+  color: white;
+}
+
+article p {
+  color: #fff;
+}
+
+/* courses */
+
+#courses{
+    color: #fff;
+    padding: 1rem;
+
+}
+.courses{
+    display: flex;
+}

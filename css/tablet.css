@@ -1,0 +1,30 @@
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+/* colors */
+
+.bg-dark-blue{
+    background: #02144b;
+}
+
+
+.bg-dark-blue{
+    background: #021a2f;
+}
+
+/* container */
+
+.container{
+    max-width: 1100px;
+    margin: 0;
+}
